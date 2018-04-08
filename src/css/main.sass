@@ -1,12 +1,18 @@
 @import "minireset"
 @import "utils"
 @import "browser-upgrade"
-@import "site-layout"
+
+// overall
+
+body
+  @extend .font-sans-serif
+
 
 // all sections
 
 .section
   @extend .clearfix
+  padding: 2rem
 
   &--yellow
     background-color: #fbc82e
@@ -18,9 +24,26 @@
     background-color: #d43079
   &--gray
     background-color: #304958
+
   &__content
     max-width: 1000px
     margin: 0 auto
+  &__lead
+    text-align: center
+    font-size: 48px
+    &--pink
+      color: #e32076
+    &--gray
+      color: #304958
+    &--yellow
+      color: #fcc92e
+    &--green
+      color: #4fcead
+  &__sub-lead
+    @extend .font-pixel
+    font-size: 32px
+    &--pink
+      color: #e32076
 
 
 // section yellow
@@ -28,23 +51,29 @@
 
 .site
   &__header
+    @extend .clearfix
+    position: relative
     max-width: 1300px
+    min-height: 160px
     margin: 0 auto
 
   &__title
-    float: left
-    position: relative
-    top: -40px
-    left: -120px
+    position: absolute
+    top: -72px
+    left: -152px
 
   &__logo
     max-width: 460px
 
   &__old-sign-in
     float: right
+    text-align: right
     color: #fff
+
   &__old-sign-in-link
+    font-size: 21px
     color: #fff
+    text-decoration: none
 
 // section blue
 // section green

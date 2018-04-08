@@ -4,9 +4,10 @@ html(lang="en")
     meta(charset="utf-8")
     meta(http-equiv="x-ua-compatible" content="ie=edge")
     title Artisfy
-    meta(name="description" content="Hello World!")
+    meta(name="description" content="Artisfy 2.0!")
     meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
     script(src="https://use.fortawesome.com/4b6a55b9.js")
+    link(rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:700|VT323")
     link(rel="stylesheet" href="css/main.css")
   body
     <!--[if lte IE 9]>
@@ -18,14 +19,16 @@ html(lang="en")
         |  to improve your experience and security.
     <!--<![endif]-->
     .section.section--yellow
-      .site__old-sign-in
-        a.site__old-sign-in-link(href="#") Sign in
-        span (Legacy users only)
       .site__header
+        .site__old-sign-in
+          a.site__old-sign-in-link(href="#") Sign in
+          div (Legacy users only)
         h1.site__title
           span.visually-hidden Artisfy
           img.site__logo(src="/img/artisfy-logo.svg")
       .section__content
+        h2.section__lead.section__lead--pink Less Hassle. More Art.
+        h3.section__sub-lead.section__sub-lead--pink Introducing Artisfy &mdash; the best client management platform for creatives
     .section.section--blue
       .section__content
     .section.section--green
