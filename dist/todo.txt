@@ -67,14 +67,14 @@
     √ pixel font
     √ pink
     √ 31px font size
-  flex box -- preview container
-    svg monitor
-      design a simplified vector artisfy 2.0 layout inside of the monitor
-      position a clickable play button over it
-        pink (play button)
-        hover turns it light black
-    coming mid 2018! (change text)
-      email collection form, input invisible
+  √ flex box -- preview container
+    √ svg monitor
+      👉 design a simplified vector artisfy 2.0 layout inside of the monitor
+      👉 position a clickable play button over it
+        👉 pink (play button)
+        👉 hover turns it light black
+    √ coming mid 2018! (change text)
+      √ email collection form, input invisible
       clicking join without an email puts cursor inside of input and triggers a message above it
     hands 
       positioned in this top area, but relative, so i can push them down

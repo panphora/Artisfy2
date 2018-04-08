@@ -243,12 +243,12 @@
 		"sC": 0,
 		"tS": 1
 		},
-	"\/src\/js\/_emailChecker.js": {
+	"\/src\/js\/_emailCollector.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/_emailChecker.js",
+		"oAP": "\/dist\/js\/_emailCollector.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
