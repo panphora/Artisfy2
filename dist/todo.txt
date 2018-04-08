@@ -42,36 +42,36 @@
 
 ## overall
 
-Overall site 
-  has a max width of 1300
-    the logo overflows it to the left a tiny bit, but not the text of the logo
-  has padding of at least 2rem around it, even at mobile size
-Each section has a max width of 1000
+√ Overall site 
+  √ has a max width of 1300
+    √ the logo overflows it to the left a tiny bit, but not the text of the logo
+  √ has padding of at least 2rem around it, even at mobile size
+√ Each section has a max width of 1000
 
 
 ## yellow section
 
-artisfy logo 
-  float top left
-  position relative
-  push off the screen a little to the top
+√ artisfy logo 
+  √ float top left
+  √ position absolute
+  √ push off the screen a little to the top
 
-sign in link 
-  float top right
+√ sign in link 
+  √ float top right
 
-masthead container
-  less hassle heading
-    pink color
-    large font (50px)
-  introducing heading
-    pixel font
-    pink
-    31px font size
+√ masthead container
+  √ less hassle heading
+    √ pink color
+    √ large font (50px)
+  √ introducing heading
+    √ pixel font
+    √ pink
+    √ 31px font size
   flex box -- preview container
     svg monitor
       design a simplified vector artisfy 2.0 layout inside of the monitor
       position a clickable play button over it
-        pink
+        pink (play button)
         hover turns it light black
     coming mid 2018! (change text)
       email collection form, input invisible

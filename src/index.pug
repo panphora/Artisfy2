@@ -25,10 +25,24 @@ html(lang="en")
           div (Legacy users only)
         h1.site__title
           span.visually-hidden Artisfy
-          img.site__logo(src="/img/artisfy-logo.svg")
+          img.site__logo(src="/img/artisfy-logo.svg" alt="Artisfy logo")
       .section__content
-        h2.section__lead.section__lead--pink Less Hassle. More Art.
-        h3.section__sub-lead.section__sub-lead--pink Introducing Artisfy &mdash; the best client management platform for creatives
+        .mb--4point5
+          h2.section__lead.section__lead--pink Less Hassle. More Art.
+          h3.section__sub-lead.section__sub-lead--pink Introducing Artisfy &mdash; the best client management platform for creatives
+        .preview
+          .preview__interface
+            img.preview__icon--monitor(src="/img/monitor.svg" alt="Interface preview")
+          .preview__info
+            .preview__info-heading Coming mid 2018!
+            .preview__info-email-section
+              .preview__info-email
+                input.preview__info-email-input.invisible-input(type="text")
+                .preview__info-email-placeholder Enter your email
+              button.preview__info-email-button(type="submit") Join the Waitlist
+            .preview__info-bonus-text Sign up for 3 months free access.
+            .preview__info-hands
+              img.preview__icon--hands(src="/img/reaching-hands.svg" alt="Hands reaching up")
     .section.section--blue
       .section__content
     .section.section--green

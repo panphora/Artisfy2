@@ -7,48 +7,6 @@
 body
   @extend .font-sans-serif
 
-
-// all sections
-
-.section
-  @extend .clearfix
-  padding: 2rem
-
-  &--yellow
-    background-color: #fbc82e
-  &--blue
-    background-color: #4d8ad9
-  &--green
-    background-color: #4fcdad
-  &--pink
-    background-color: #d43079
-  &--gray
-    background-color: #304958
-
-  &__content
-    max-width: 1000px
-    margin: 0 auto
-  &__lead
-    text-align: center
-    font-size: 48px
-    &--pink
-      color: #e32076
-    &--gray
-      color: #304958
-    &--yellow
-      color: #fcc92e
-    &--green
-      color: #4fcead
-  &__sub-lead
-    @extend .font-pixel
-    font-size: 32px
-    &--pink
-      color: #e32076
-
-
-// section yellow
-
-
 .site
   &__header
     @extend .clearfix
@@ -74,6 +32,106 @@ body
     font-size: 21px
     color: #fff
     text-decoration: none
+
+// all sections
+
+.section
+  @extend .clearfix
+  padding: 2rem
+
+  &--yellow
+    background-color: #fbc82e
+  &--blue
+    background-color: #4d8ad9
+  &--green
+    background-color: #4fcdad
+  &--pink
+    background-color: #d43079
+  &--gray
+    background-color: #304958
+
+  &__content
+    max-width: 1000px
+    margin: 0 auto
+  &__lead
+    text-align: center
+    font-size: 52px
+    &--pink
+      color: #e32076
+    &--gray
+      color: #304958
+    &--yellow
+      color: #fcc92e
+    &--green
+      color: #4fcead
+  &__sub-lead
+    @extend .font-pixel
+    text-align: center
+    font-size: 32px
+    &--pink
+      color: #e32076
+
+
+// section yellow
+
+.preview
+  display: flex
+  &__icon
+    &--monitor
+    &--hands
+      max-width: 280px
+  &__interface
+    flex: 1.2
+    margin-right: 4rem
+  &__info
+    flex: 1
+    padding-top: 1rem
+  &__info-heading
+    margin-bottom: 2rem
+    font-size: 32px
+    text-align: center
+    color: #2c3e4b
+  &__info-email-section
+    margin-bottom: 1rem
+    border: 2px solid #2c3e4b
+    border-radius: 2px
+  &__info-email
+    position: relative
+    height: 52px
+    background-color: #fcdd6f
+    border-bottom: 2px solid #2c3e4b
+  &__info-email-input
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    padding: 4px 8px
+    text-align: center
+    font-size: 18px
+  &__info-email-placeholder
+    line-height: 52px
+    text-align: center
+    font-size: 16px
+    color: #2d3e4b
+  &__info-email-button
+    @extend .reset-button
+    @extend .font-pixel
+    height: 48px
+    width: 100%
+    font-size: 24px
+    color: #fff
+    background-color: #4fcead
+  &__info-bonus-text
+    font-size: 20px
+    text-align: center
+    color: #304857
+  &__info-hands
+    position: relative
+    top: 60px
+    text-align: center
+
+
 
 // section blue
 // section green
