@@ -37,8 +37,8 @@
 
 ## export logo
 
-  find it
-  export it
+  √ find it
+  √ export it
 
 ## overall
 

@@ -1,0 +1,52 @@
+@import "minireset"
+@import "utils"
+@import "browser-upgrade"
+@import "site-layout"
+
+// all sections
+
+.section
+  @extend .clearfix
+
+  &--yellow
+    background-color: #fbc82e
+  &--blue
+    background-color: #4d8ad9
+  &--green
+    background-color: #4fcdad
+  &--pink
+    background-color: #d43079
+  &--gray
+    background-color: #304958
+  &__content
+    max-width: 1000px
+    margin: 0 auto
+
+
+// section yellow
+
+
+.site
+  &__header
+    max-width: 1300px
+    margin: 0 auto
+
+  &__title
+    float: left
+    position: relative
+    top: -40px
+    left: -120px
+
+  &__logo
+    max-width: 460px
+
+  &__old-sign-in
+    float: right
+    color: #fff
+  &__old-sign-in-link
+    color: #fff
+
+// section blue
+// section green
+// section pink
+// section gray
