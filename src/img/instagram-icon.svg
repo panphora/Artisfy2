@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="75px" viewBox="0 0 75 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>instagram-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="107.201823%" y1="-24.0351562%" x2="9.046875%" y2="119.643229%" id="linearGradient-1">
+            <stop stop-color="#5E52CC" offset="0%"></stop>
+            <stop stop-color="#BF2AA4" offset="23.0591535%"></stop>
+            <stop stop-color="#DE2974" offset="46.6125973%"></stop>
+            <stop stop-color="#F66134" offset="75.9661458%"></stop>
+            <stop stop-color="#FED66E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="instagram-icon">
+            <rect id="Rectangle-9" fill="url(#linearGradient-1)" x="0" y="0" width="75" height="75"></rect>
+            <path d="M9,9 L66,9 L66,66 L9,66 L9,9 Z M15,15 L15,60 L60,60 L60,15 L15,15 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+            <path d="M23,23 L52,23 L52,52 L23,52 L23,23 Z M29,29 L29,46 L46,46 L46,29 L29,29 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>
