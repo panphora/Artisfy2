@@ -1,8 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="663px" height="519px" viewBox="0 0 663 519" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
-    <title>monitor</title>
-    <desc>Created with Sketch.</desc>
+<svg viewBox="0 0 663 519" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <rect id="path-1" x="0" y="0" width="603" height="314"></rect>
         <rect id="path-3" x="0" y="0" width="240" height="93"></rect>
@@ -79,8 +75,8 @@
         </g>
         <g id="Group-21" transform="translate(30.000000, 30.000000)">
             <rect id="Rectangle" fill="#16191A" opacity="0.5" x="0" y="0" width="603" height="314"></rect>
-            <g id="Group-8" filter="url(#filter-13)" transform="translate(213.000000, 70.000000)">
-                <circle id="Oval-7" fill="#F1563E" cx="89" cy="89" r="89"></circle>
+            <g class="preview__icon--play-button" id="Group-8" filter="url(#filter-13)" transform="translate(213.000000, 70.000000)">
+                <circle class="preview__icon--play-button-circle" cx="89" cy="89" r="89"></circle>
                 <polygon id="Triangle-2" fill="#FFFFFF" points="138 89 60 128 60 50"></polygon>
             </g>
         </g>

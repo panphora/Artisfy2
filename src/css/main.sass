@@ -76,11 +76,19 @@ body
 
 .preview
   display: flex
-  &__icon
-    &--monitor
+  &__monitor-container
+    width: 100%
+  &__icon--play-button
+    cursor: pointer
+    &:hover
+      .preview__icon--play-button-circle
+        fill: #845EF7
+    .preview__icon--play-button-circle
+      fill: #F1563E
     &--hands
       max-width: 280px
   &__interface
+    position: relative
     flex: 1.2
     margin-right: 4rem
   &__info

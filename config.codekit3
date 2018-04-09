@@ -177,8 +177,18 @@
 	"\/src\/img\/monitor.svg": {
 		"ft": 2097152,
 		"miP": 0,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/dist\/img\/monitor.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/src\/img\/play-button.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/dist\/img\/play-button.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

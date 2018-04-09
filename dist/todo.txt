@@ -1,6 +1,6 @@
 # BUILD
 
-## √√√ export all the svg assets
+√ ## export all the svg assets
 
     √ - monitor
     √ - hands
@@ -17,30 +17,30 @@
     √ - facebook
     √ - twitter
 
-## import the required fonts
+√ ## import the required fonts
 
-  - figure out required fonts
-    - Arial Rounded MT -> replace with Nunito
-      - Weights: Bold (was regular before)
-    - VT323
-      - Weights: Regular
-  - get them from google
-
-
-  Output:
-
-  <link href="https://fonts.googleapis.com/css?family=Nunito:700|VT323" rel="stylesheet">
-
-  font-family: 'VT323', monospace;
-  font-family: 'Nunito', sans-serif;
+  √ - figure out required fonts
+    √ - Arial Rounded MT -> replace with Nunito
+      √ - Weights: Bold (was regular before)
+    √ - VT323
+      √- Weights: Regular
+  √ - get them from google
 
 
-## export logo
+  √ Output:
+
+  √ <link href="https://fonts.googleapis.com/css?family=Nunito:700|VT323" rel="stylesheet">
+
+  √ font-family: 'VT323', monospace;
+  √ font-family: 'Nunito', sans-serif;
+
+
+√ ## export logo
 
   √ find it
   √ export it
 
-## overall
+√ ## overall
 
 √ Overall site 
   √ has a max width of 1300
@@ -69,10 +69,10 @@
     √ 31px font size
   √ flex box -- preview container
     √ svg monitor
-      👉 design a simplified vector artisfy 2.0 layout inside of the monitor
-      👉 position a clickable play button over it
-        👉 pink (play button)
-        👉 hover turns it light black
+      √ design a simplified vector artisfy 2.0 layout inside of the monitor
+      √ position a clickable play button over it
+        √ pink (play button)
+        √ hover turns it light black
     √ coming mid 2018! (change text)
       √ email collection form, input invisible
       √ clicking join without an email puts cursor inside of input and triggers a message above it
