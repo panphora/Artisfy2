@@ -38,7 +38,7 @@ body
   padding: 2rem
 
   &--yellow
-    background-color: #fbc82e
+    background-color: #fdc72e
   &--blue
     background-color: #4d8ad9
   &--green
@@ -52,14 +52,16 @@ body
     max-width: 1000px
     margin: 0 auto
   &__lead
+    margin-bottom: .5rem
     text-align: center
+    font-weight: 700
     font-size: 52px
     &--pink
       color: #e32076
     &--gray
       color: #304958
     &--yellow
-      color: #fcc92e
+      color: #fdc72e
     &--green
       color: #4fcead
   &__sub-lead
@@ -67,7 +69,7 @@ body
     text-align: center
     font-size: 32px
     &--pink
-      color: #e32076
+      color: #e32075
 
 
 // section yellow
@@ -113,7 +115,7 @@ body
   &__info-email-placeholder
     line-height: 50px
     text-align: center
-    font-size: 16px
+    font-size: 17px
     color: #2d3e4b
   &__info-email-button
     @extend .reset-button
@@ -135,6 +137,32 @@ body
     text-align: center
 
 // section blue
+
+.life-goals
+  display: flex
+  justify-content: space-between
+  color: #fff
+  &__goal
+    padding: 7rem 0
+    text-align: center
+  &__image-container
+    display: flex
+    align-items: center
+    margin: 0 auto 1rem
+    max-width: 140px
+    min-height: 200px
+  &__image
+    width: 100%
+  &__heading
+    @extend .font-pixel
+    margin-bottom: .75rem
+    font-size: 32px
+  &__text
+    line-height: 1.5em
+    font-size: 17px
+    letter-spacing: .5px
+
+
 // section green
 // section pink
 // section gray

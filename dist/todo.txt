@@ -75,11 +75,11 @@
         👉 hover turns it light black
     √ coming mid 2018! (change text)
       √ email collection form, input invisible
-      clicking join without an email puts cursor inside of input and triggers a message above it
-    hands 
-      positioned in this top area, but relative, so i can push them down
-    --- on medium screens, monitor svg shrinks and input does too
-    --- on screens smaller than 820, the coming 2018 area goes on top of the monitor
+      √ clicking join without an email puts cursor inside of input and triggers a message above it
+    √ hands 
+      √ positioned in this top area, but relative, so i can push them down
+    👉 --- on medium screens, monitor svg shrinks and input does too
+    👉 --- on screens smaller than 820, the coming 2018 area goes on top of the monitor
 
 
 ## blue section
