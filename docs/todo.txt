@@ -96,24 +96,24 @@
 
 ## green section
 
-how does it work header area
+√ how does it work header area
 
-green section box
-  --- inside this box, positioned in the top right, is a green box with a big height 1200
-  --- and huge width 2000 (enough that it will expand into a 4000px wide screen
-  --- transform origin in set to its top left corner and it's rotated 20-30 deg counter cw
-  box
-    --- inside this box, positioned in the top right, is a dark box with a big height 1200
-    --- and huge width 2000 (enough that it will expand into a 4000px wide screen
-    --- transform origin in set to its top right corner and it's rotated 20-30 deg counter cw
-    ---------
-    --- inside this box, positioned in the bot right, is a green box with a big height 1200
-    --- and huge width 2000 (enough that it will expand into a 4000px wide screen
-    --- transform origin in set to its top right corner and it's rotated 20-30 deg counter cw
-    box
-      box
-        box
-          1,2,3 instructions text
+√ green section box
+  √ --- inside this box, positioned in the top right, is a green box with a big height 1200
+  √ --- and huge width 2000 (enough that it will expand into a 4000px wide screen
+  √ --- transform origin in set to its top left corner and it's rotated 20-30 deg counter cw
+  √ box
+    √ --- inside this box, positioned in the top right, is a dark box with a big height 1200
+    √ --- and huge width 2000 (enough that it will expand into a 4000px wide screen
+    √ --- transform origin in set to its top right corner and it's rotated 20-30 deg counter cw
+    √ ---------
+    √ --- inside this box, positioned in the bot right, is a green box with a big height 1200
+    √ --- and huge width 2000 (enough that it will expand into a 4000px wide screen
+    √ --- transform origin in set to its top right corner and it's rotated 20-30 deg counter cw
+    √ box
+      √ box
+        √ box
+          √ 1,2,3 instructions text
   --- all boxes shrink in width on smaller screens and text reflows and (maybe) gets a
   --- little smaller
 
