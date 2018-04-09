@@ -1,0 +1,198 @@
+# BUILD
+
+√ ## export all the svg assets
+
+    √ - monitor
+    √ - hands
+    √ - people 1
+    √ - people 2
+    √ - hearts
+    √ - hire me
+    √ - menu
+    √ - clock
+    √ - brief
+    √ - contract
+    √ - payment
+    √ - instagram
+    √ - facebook
+    √ - twitter
+
+√ ## import the required fonts
+
+  √ - figure out required fonts
+    √ - Arial Rounded MT -> replace with Nunito
+      √ - Weights: Bold (was regular before)
+    √ - VT323
+      √- Weights: Regular
+  √ - get them from google
+
+
+  √ Output:
+
+  √ <link href="https://fonts.googleapis.com/css?family=Nunito:700|VT323" rel="stylesheet">
+
+  √ font-family: 'VT323', monospace;
+  √ font-family: 'Nunito', sans-serif;
+
+
+√ ## export logo
+
+  √ find it
+  √ export it
+
+√ ## overall
+
+√ Overall site 
+  √ has a max width of 1300
+    √ the logo overflows it to the left a tiny bit, but not the text of the logo
+  √ has padding of at least 2rem around it, even at mobile size
+√ Each section has a max width of 1000
+
+
+## yellow section
+
+√ artisfy logo 
+  √ float top left
+  √ position absolute
+  √ push off the screen a little to the top
+
+√ sign in link 
+  √ float top right
+
+√ masthead container
+  √ less hassle heading
+    √ pink color
+    √ large font (50px)
+  √ introducing heading
+    √ pixel font
+    √ pink
+    √ 31px font size
+  √ flex box -- preview container
+    √ svg monitor
+      √ design a simplified vector artisfy 2.0 layout inside of the monitor
+      √ position a clickable play button over it
+        √ pink (play button)
+        √ hover turns it light black
+    √ coming mid 2018! (change text)
+      √ email collection form, input invisible
+      √ clicking join without an email puts cursor inside of input and triggers a message above it
+    √ hands 
+      √ positioned in this top area, but relative, so i can push them down
+    👉 --- on medium screens, monitor svg shrinks and input does too
+    👉 --- on screens smaller than 820, the coming 2018 area goes on top of the monitor
+
+
+## blue section
+
+√ flex box -- life goals
+  √ happy clients
+    👉 svg resizes on smaller screens
+  √ focused freelancers
+    👉 svg resizes on smaller screens
+  √ better work
+    👉 svg resizes on smaller screens
+  👉 --- on medium screens, svgs shrink and text gets a thinner width to be inside of
+  👉 --- on screens smaller than 820, these sections appear on top of each other
+
+## green section
+
+how does it work header area
+
+green section box
+  --- inside this box, positioned in the top right, is a green box with a big height 1200
+  --- and huge width 2000 (enough that it will expand into a 4000px wide screen
+  --- transform origin in set to its top left corner and it's rotated 20-30 deg counter cw
+  box
+    --- inside this box, positioned in the top right, is a dark box with a big height 1200
+    --- and huge width 2000 (enough that it will expand into a 4000px wide screen
+    --- transform origin in set to its top right corner and it's rotated 20-30 deg counter cw
+    ---------
+    --- inside this box, positioned in the bot right, is a green box with a big height 1200
+    --- and huge width 2000 (enough that it will expand into a 4000px wide screen
+    --- transform origin in set to its top right corner and it's rotated 20-30 deg counter cw
+    box
+      box
+        box
+          1,2,3 instructions text
+  --- all boxes shrink in width on smaller screens and text reflows and (maybe) gets a
+  --- little smaller
+
+## pink section
+
+section heading
+
+flexbox container -- features
+  -- has flex wrap
+  -- each item has a min-width of 200
+  customizeable button
+    svg icon
+    wrapping title
+    text content
+  menu of services
+    svg icon
+    wrapping title
+    text content
+  project timeline
+    svg icon
+    wrapping title
+    text content
+  creative brief
+    svg icon
+    wrapping title
+    text content
+  contract templates
+    svg icon
+    wrapping title
+    text content
+  payment
+    svg icon
+    wrapping title
+    text content
+
+## gray blue section
+
+section heading
+
+email collection
+  email collection form, input invisible
+  clicking join without an email puts cursor inside of input and triggers a message above it
+
+fb, instagram, twitter icons
+questions? text
+Built by Artisfy. Designed by Sunbird Creative.
+
+
+
+
+
+
+
+# DEPLOY
+
+deploy to netlify
+
+
+# DNS
+
+switch current artisfy domain name to projects.artisfy.com
+  go through all the code in github
+  go through settings on nodechef
+  also switch blog link to new blog link
+  redeploy to new domain
+
+switch main artisfy.com domain to new netlify site
+
+celebrate! now you can start telling people about it!!
+  send out the email to all artisfy members
+  
+
+
+
+
+
+
+
+
+
+
+

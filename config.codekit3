@@ -13,13 +13,13 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/.gitattributes",
+		"oAP": "\/docs\/.gitattributes",
 		"oF": 0
 		},
-	"\/dist": {
+	"\/docs": {
 		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/dist\/dist",
+		"oAP": "\/docs\/docs",
 		"oF": 0
 		},
 	"\/src\/css\/_browser-upgrade.sass": {
@@ -30,7 +30,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_browser-upgrade.css",
+		"oAP": "\/docs\/css\/_browser-upgrade.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -43,7 +43,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_minireset.css",
+		"oAP": "\/docs\/css\/_minireset.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -56,7 +56,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/dist\/css\/_utils.css",
+		"oAP": "\/docs\/css\/_utils.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -69,7 +69,7 @@
 		"ft": 2,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/dist\/css\/main.css",
+		"oAP": "\/docs\/css\/main.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
@@ -78,7 +78,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/artisfy-logo.svg",
+		"oAP": "\/docs\/img\/artisfy-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -88,7 +88,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/clock.svg",
+		"oAP": "\/docs\/img\/clock.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -98,7 +98,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/contract-templates.svg",
+		"oAP": "\/docs\/img\/contract-templates.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -108,7 +108,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/creative-brief.svg",
+		"oAP": "\/docs\/img\/creative-brief.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -118,7 +118,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/dollar-symbol.svg",
+		"oAP": "\/docs\/img\/dollar-symbol.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -128,7 +128,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/facebook-icon.svg",
+		"oAP": "\/docs\/img\/facebook-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -138,7 +138,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/hearts.svg",
+		"oAP": "\/docs\/img\/hearts.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -148,7 +148,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/hire-me-button.svg",
+		"oAP": "\/docs\/img\/hire-me-button.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -158,7 +158,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/instagram-icon.svg",
+		"oAP": "\/docs\/img\/instagram-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -168,7 +168,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/menu-of-services.svg",
+		"oAP": "\/docs\/img\/menu-of-services.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -178,7 +178,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 1,
-		"oAP": "\/dist\/img\/monitor.svg",
+		"oAP": "\/docs\/img\/monitor.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -188,7 +188,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/play-button.svg",
+		"oAP": "\/docs\/img\/play-button.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -198,7 +198,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/reaching-hands.svg",
+		"oAP": "\/docs\/img\/reaching-hands.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -208,7 +208,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/smiling-people-1.svg",
+		"oAP": "\/docs\/img\/smiling-people-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -218,7 +218,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/smiling-people-2.svg",
+		"oAP": "\/docs\/img\/smiling-people-2.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -228,7 +228,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/dist\/img\/twitter-icon.svg",
+		"oAP": "\/docs\/img\/twitter-icon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -239,7 +239,7 @@
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
-		"oAP": "\/dist\/index.html",
+		"oAP": "\/docs\/index.html",
 		"oF": 0,
 		"oS": 0
 		},
@@ -248,7 +248,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/_bling.js",
+		"oAP": "\/docs\/js\/_bling.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
@@ -258,7 +258,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/_emailCollector.js",
+		"oAP": "\/docs\/js\/_emailCollector.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -268,7 +268,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "\/dist\/js\/_utils.js",
+		"oAP": "\/docs\/js\/_utils.js",
 		"oF": 0,
 		"sC": 3,
 		"tS": 1
@@ -278,7 +278,7 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/dist\/js\/main.js",
+		"oAP": "\/docs\/js\/main.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
@@ -287,7 +287,7 @@
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/dist\/todo.txt",
+		"oAP": "\/docs\/todo.txt",
 		"oF": 0
 		}
 	},
@@ -299,7 +299,8 @@
 	"creationDate": 538027800,
 	"displayValue": "Artisfy2",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-lotr"
+	"iconImageName": "meme-lotr",
+	"lastBuiltDate": 544979776
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -556,7 +557,7 @@
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
 	"buildFolderActive": 1,
-	"buildFolderName": "dist",
+	"buildFolderName": "docs",
 	"cleanBuild": 1,
 	"coffeeLintFlags2": {
 		"arrow_spacing": {
@@ -2451,7 +2452,7 @@
 			}
 		},
 	"uglifyReservedNamesString": "$",
-	"websiteRelativeRoot": "\/dist"
+	"websiteRelativeRoot": "\/docs"
 	},
 "settingsFileVersion": "3"
 }
