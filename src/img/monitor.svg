@@ -1,18 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="663px" height="519px" viewBox="0 0 663 519" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
     <title>monitor</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="monitor">
-            <g id="Page-1">
-                <polygon id="Fill-1" fill="#D1D3D4" points="254.082 508.167 408.828 508.167 408.828 424.306 254.082 424.306"></polygon>
-                <polygon id="Fill-2" fill="#FFFFFF" points="202.89 518.15 460.022 518.15 460.022 497.185 202.89 497.185"></polygon>
-                <g id="Group-6" transform="translate(0.000000, 0.150000)">
-                    <path d="M31.282,342.58 L631.628,342.58 L631.628,31.467 L31.282,31.467 L31.282,342.58 Z M662.912,24.982 C662.912,11.654 652.105,0.85 638.777,0.85 L24.134,0.85 C10.807,0.85 0,11.654 0,24.982 L0,372.242 L662.912,372.242 L662.912,24.982 Z" id="Fill-3" fill="#353938"></path>
-                    <path d="M0,372.2422 L0,408.0062 C0,421.3342 10.807,432.1402 24.134,432.1402 L638.777,432.1402 C652.105,432.1402 662.912,421.3342 662.912,408.0062 L662.912,372.2422 L0,372.2422 Z" id="Fill-5" fill="#FFFFFF"></path>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="603" height="314"></rect>
+        <rect id="path-3" x="0" y="0" width="240" height="93"></rect>
+        <rect id="path-5" x="0" y="0" width="160" height="24"></rect>
+        <rect id="path-7" x="0" y="0" width="160" height="14"></rect>
+        <circle id="path-9" cx="32" cy="32" r="32"></circle>
+        <rect id="path-11" x="0" y="0" width="240" height="93"></rect>
+        <filter x="-4.5%" y="-2.2%" width="109.0%" height="109.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.18 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="monitor" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Page-1">
+            <polygon id="Fill-1" fill="#D1D3D4" points="254.082 508.167 408.828 508.167 408.828 424.306 254.082 424.306"></polygon>
+            <polygon id="Fill-2" fill="#FFFFFF" points="202.89 518.15 460.022 518.15 460.022 497.185 202.89 497.185"></polygon>
+            <g id="Group-6" transform="translate(0.000000, 0.150000)">
+                <path d="M31.282,342.58 L631.628,342.58 L631.628,31.467 L31.282,31.467 L31.282,342.58 Z M662.912,24.982 C662.912,11.654 652.105,0.85 638.777,0.85 L24.134,0.85 C10.807,0.85 0,11.654 0,24.982 L0,372.242 L662.912,372.242 L662.912,24.982 Z" id="Fill-3" fill="#353938"></path>
+                <path d="M0,372.2422 L0,408.0062 C0,421.3342 10.807,432.1402 24.134,432.1402 L638.777,432.1402 C652.105,432.1402 662.912,421.3342 662.912,408.0062 L662.912,372.2422 L0,372.2422 Z" id="Fill-5" fill="#FFFFFF"></path>
+            </g>
+        </g>
+        <g id="Group-20-Copy" transform="translate(30.000000, 30.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Mask" fill="#16191A" xlink:href="#path-1"></use>
+            <g mask="url(#mask-2)">
+                <g transform="translate(182.000000, 241.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <use id="Rectangle-20" stroke="none" fill="#5F3DC4" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <polygon id="Rectangle-29" stroke="none" fill="#B197FC" fill-rule="evenodd" opacity="0.799999952" mask="url(#mask-4)" points="149.58612 -71.6877482 224.192133 -11.2729906 74.4138796 173.687748 -0.192132685 113.272991"></polygon>
                 </g>
+            </g>
+        </g>
+        <g id="Group-2" transform="translate(372.000000, 104.000000) scale(-1, 1) rotate(-180.000000) translate(-372.000000, -104.000000) translate(292.000000, 92.000000)">
+            <mask id="mask-6" fill="white">
+                <use xlink:href="#path-5"></use>
+            </mask>
+            <use id="Rectangle-2" fill="#4DADF7" xlink:href="#path-5"></use>
+            <polygon id="Rectangle-31" fill-opacity="0.599999964" fill="#FFFFFF" mask="url(#mask-6)" points="19.3595308 -0.251979032 61.039033 -43.4123671 146.640469 39.251979 104.960967 82.4123671"></polygon>
+        </g>
+        <g id="Group-3" transform="translate(372.000000, 77.000000) scale(-1, 1) rotate(-180.000000) translate(-372.000000, -77.000000) translate(292.000000, 70.000000)">
+            <mask id="mask-8" fill="white">
+                <use xlink:href="#path-7"></use>
+            </mask>
+            <use id="Rectangle-2-Copy" fill="#4DADF7" xlink:href="#path-7"></use>
+            <polygon id="Rectangle-31" fill-opacity="0.599999964" fill="#FFFFFF" mask="url(#mask-8)" points="12.3595308 -19.251979 54.039033 -62.4123671 139.640469 20.251979 97.960967 63.4123671"></polygon>
+        </g>
+        <g id="Rectangle-30" transform="translate(212.000000, 62.000000)">
+            <mask id="mask-10" fill="white">
+                <use xlink:href="#path-9"></use>
+            </mask>
+            <use id="Mask" fill="#F06595" xlink:href="#path-9"></use>
+            <polygon fill="#3B5BDB" mask="url(#mask-10)" points="32.750874 24 90.2596752 70.5697089 35.5088011 138.181408 -22 91.6116986"></polygon>
+        </g>
+        <g id="Group-9" transform="translate(577.000000, 288.000000)">
+            <circle id="Oval-8" fill="#228AE6" cx="21" cy="21" r="21"></circle>
+            <rect id="Rectangle-32" fill="#FFFFFF" x="11" y="14" width="20" height="13.5"></rect>
+            <polygon id="Rectangle-3" fill="#FFFFFF" points="17.3636364 17.6 28.2727273 17.6 28.2727273 32 17.3636364 23"></polygon>
+        </g>
+        <g id="Group-20" transform="translate(212.000000, 154.000000)">
+            <mask id="mask-12" fill="white">
+                <use xlink:href="#path-11"></use>
+            </mask>
+            <use id="Rectangle-20" fill="#862E9C" xlink:href="#path-11"></use>
+            <polygon id="Rectangle-29" fill="#B12AA4" mask="url(#mask-12)" points="149.58612 -71.6877482 224.192133 -11.2729906 74.4138796 173.687748 -0.192132685 113.272991"></polygon>
+        </g>
+        <g id="Group-21" transform="translate(30.000000, 30.000000)">
+            <rect id="Rectangle" fill="#16191A" opacity="0.5" x="0" y="0" width="603" height="314"></rect>
+            <g id="Group-8" filter="url(#filter-13)" transform="translate(213.000000, 70.000000)">
+                <circle id="Oval-7" fill="#F1563E" cx="89" cy="89" r="89"></circle>
+                <polygon id="Triangle-2" fill="#FFFFFF" points="138 89 60 128 60 50"></polygon>
             </g>
         </g>
     </g>

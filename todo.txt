@@ -84,15 +84,15 @@
 
 ## blue section
 
-flex box -- life goals
-  happy clients
-    svg resizes on smaller screens
-  focused freelancers
-    svg resizes on smaller screens
-  better work
-    svg resizes on smaller screens
-  --- on medium screens, svgs shrink and text gets a thinner width to be inside of
-  --- on screens smaller than 820, these sections appear on top of each other
+√ flex box -- life goals
+  √ happy clients
+    👉 svg resizes on smaller screens
+  √ focused freelancers
+    👉 svg resizes on smaller screens
+  √ better work
+    👉 svg resizes on smaller screens
+  👉 --- on medium screens, svgs shrink and text gets a thinner width to be inside of
+  👉 --- on screens smaller than 820, these sections appear on top of each other
 
 ## green section
 
