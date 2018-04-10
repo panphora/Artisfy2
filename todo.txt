@@ -1,6 +1,6 @@
 # BUILD
 
-👉 Svgs and images 100% width
+√ Svgs and images 100% width
 
 √ ## export all the svg assets
 

@@ -51,6 +51,8 @@ body
   &__content
     max-width: 1000px
     margin: 0 auto
+    &--pink
+      padding: 6rem 0 4rem
   &__lead
     text-align: center
     font-weight: 700
@@ -245,6 +247,43 @@ body
     text-shadow: 0 0 3px rgba(0,0,0,.3)
 
 // section pink
+
+.features
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  &__item
+    width: 310px
+    margin-bottom: 2.5rem
+    padding: 16px 22px
+    text-align: center
+    color: #fff
+  &__icon-container
+    display: flex
+    align-items: center
+    justify-content: center
+    height: 110px
+    margin-bottom: 1rem
+  &__icon
+  &__icon--hire-me
+    width: 145px
+  &__icon--menu
+    width: 67px
+  &__icon--timeline
+    width: 78px
+  &__icon--brief
+    width: 85px
+  &__icon--contract
+    width: 85px
+  &__icon--payment
+    width: 50px
+  &__item-title
+    @extend .font-pixel
+    margin-bottom: 1rem
+    font-size: 32px
+  &__item-text
+    font-size: 17px
+
 // section gray
 
 
