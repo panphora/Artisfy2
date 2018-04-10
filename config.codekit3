@@ -7,7 +7,7 @@
 		"uuidString": "AAD000D8-822C-4491-A8C8-608CC2EC31A4"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitattributes": {
 		"cB": 0,
@@ -300,6 +300,7 @@
 	"displayValue": "Artisfy2",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-lotr",
+	"iconImageWasSetByUser": 0,
 	"lastBuiltDate": 544979776
 	},
 "projectSettings": {
@@ -2103,6 +2104,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
