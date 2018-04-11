@@ -80,21 +80,21 @@
       √ clicking join without an email puts cursor inside of input and triggers a message above it
     √ hands 
       √ positioned in this top area, but relative, so i can push them down
-    👉 --- on medium screens, monitor svg shrinks and input does too
-    👉 --- on screens smaller than 820, the coming 2018 area goes on top of the monitor
+    √ --- on medium screens, monitor svg shrinks and input does too
+    √ --- on screens smaller than 820, the coming 2018 area goes on top of the monitor
 
 
 ## blue section
 
 √ flex box -- life goals
   √ happy clients
-    👉 svg resizes on smaller screens
+    √ svg resizes on smaller screens
   √ focused freelancers
-    👉 svg resizes on smaller screens
+    √ svg resizes on smaller screens
   √ better work
-    👉 svg resizes on smaller screens
-  👉 --- on medium screens, svgs shrink and text gets a thinner width to be inside of
-  👉 --- on screens smaller than 820, these sections appear on top of each other
+    √ svg resizes on smaller screens
+  √ --- on medium screens, svgs shrink and text gets a thinner width to be inside of
+  √ --- on screens smaller than 820, these sections appear on top of each other
 
 ## green section
 
@@ -153,13 +153,12 @@ section heading
 
 ## gray blue section
 
-support for multiple email collection elements
+√ support for multiple email collection elements
 
 section heading
 
 email collection
-  email collection form, input invisible
-  clicking join without an email puts cursor inside of input and triggers a message above it
+  use same email collection element as above
 
 fb, instagram, twitter icons
 questions? text
