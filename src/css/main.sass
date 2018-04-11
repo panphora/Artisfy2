@@ -31,6 +31,50 @@ body
     &:hover
       text-decoration: underline
 
+.email-collect
+  &__error
+    margin-bottom: .5rem
+    text-align: center
+    color: #e03131
+  &__form
+    margin-bottom: 1rem
+    border: 2px solid #2c3e4b
+    border-radius: 2px
+  &__email-container
+    position: relative
+    height: 50px
+    background-color: #fcdd6f
+    border-bottom: 2px solid #2c3e4b
+    &--focused
+      background-color: lighten(#fcdd6f, 8%)
+    &:hover
+      background-color: lighten(#fcdd6f, 8%)
+  &__input
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    padding: 4px 8px
+    text-align: center
+    font-weight: 700 
+    font-size: 18px
+  &__placeholder
+    line-height: 50px
+    text-align: center
+    font-size: 17px
+    color: #2d3e4b
+  &__button
+    @extend .reset-button
+    @extend .font-pixel
+    height: 48px
+    width: 100%
+    font-size: 24px
+    color: #fff
+    background-color: #4fcead
+    &:hover
+      background-color: lighten(#4fcead, 8%)
+
 // all sections
 
 .section
@@ -105,48 +149,6 @@ body
     font-size: 32px
     text-align: center
     color: #2c3e4b
-  &__email-error
-    margin-bottom: .5rem
-    text-align: center
-    color: #e03131
-  &__info-email-section
-    margin-bottom: 1rem
-    border: 2px solid #2c3e4b
-    border-radius: 2px
-  &__info-email
-    position: relative
-    height: 50px
-    background-color: #fcdd6f
-    border-bottom: 2px solid #2c3e4b
-    &--focused
-      background-color: lighten(#fcdd6f, 8%)
-    &:hover
-      background-color: lighten(#fcdd6f, 8%)
-  &__info-email-input
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    padding: 4px 8px
-    text-align: center
-    font-weight: 700 
-    font-size: 18px
-  &__info-email-placeholder
-    line-height: 50px
-    text-align: center
-    font-size: 17px
-    color: #2d3e4b
-  &__info-email-button
-    @extend .reset-button
-    @extend .font-pixel
-    height: 48px
-    width: 100%
-    font-size: 24px
-    color: #fff
-    background-color: #4fcead
-    &:hover
-      background-color: lighten(#4fcead, 8%)
   &__info-bonus-text
     font-size: 20px
     text-align: center

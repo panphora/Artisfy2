@@ -123,35 +123,37 @@
 
 section heading
 
-flexbox container -- features
-  -- has flex wrap
-  -- each item has a min-width of 200
-  customizeable button
-    svg icon
-    wrapping title
-    text content
-  menu of services
-    svg icon
-    wrapping title
-    text content
-  project timeline
-    svg icon
-    wrapping title
-    text content
-  creative brief
-    svg icon
-    wrapping title
-    text content
-  contract templates
-    svg icon
-    wrapping title
-    text content
-  payment
-    svg icon
-    wrapping title
-    text content
+√ flexbox container -- features
+  √ -- has flex wrap
+  √ -- each item has a min-width of 200
+  √ customizeable button
+    √ svg icon
+    √ wrapping title
+    √ text content
+  √ menu of services
+    √ svg icon
+    √ wrapping title
+    √ text content
+  √ project timeline
+    √ svg icon
+    √ wrapping title
+    √ text content
+  √ creative brief
+    √ svg icon
+    √ wrapping title
+    √ text content
+  √ contract templates
+    √ svg icon
+    √ wrapping title
+    √ text content
+  √ payment
+    √ svg icon
+    √ wrapping title
+    √ text content
 
 ## gray blue section
+
+support for multiple email collection elements
 
 section heading
 

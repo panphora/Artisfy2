@@ -35,12 +35,13 @@ html(lang="en")
               include img/monitor.svg
           .preview__info
             .preview__info-heading Coming mid 2018!
-            .preview__email-error.visibility-hidden Please enter a valid email address 😫
-            form.preview__info-email-section(action="/")
-              .preview__info-email
-                input.preview__info-email-input.invisible-input(type="text")
-                .preview__info-email-placeholder Enter your email
-              button.preview__info-email-button(type="submit") Join the Waitlist
+            .email-collect
+              .email-collect__error.visibility-hidden Please enter a valid email address 😫
+              form.email-collect__form(action="/")
+                .email-collect__email-container
+                  input.email-collect__input.invisible-input(type="text")
+                  .email-collect__placeholder Enter your email
+                button.email-collect__button(type="submit") Join the Waitlist
             .preview__info-bonus-text Sign up for 3 months free access.
             .preview__info-hands
               img.preview__icon--hands(src="/img/reaching-hands.svg" alt="Hands reaching up")
