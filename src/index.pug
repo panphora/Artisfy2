@@ -21,12 +21,12 @@ html(lang="en")
       .site__header
         .site__old-sign-in
           a.site__old-sign-in-link(href="#") Sign in
-          div (Legacy users only)
+          .site__old-sign-in-text (Legacy users only)
         h1.site__title
           span.visually-hidden Artisfy
           img.site__logo(src="/img/artisfy-logo.svg" alt="Artisfy logo")
-      .section__content
-        .mb--4point5
+      .section__content.section__content--yellow
+        .section__lead-container
           h2.section__lead.section__lead--pink.mb--point5 Less Hassle. More Art.
           h3.section__sub-lead.section__sub-lead--pink Introducing Artisfy &mdash; the best client management platform for creatives
         .preview
@@ -46,7 +46,7 @@ html(lang="en")
             .preview__info-hands
               img.preview__icon--hands(src="/img/reaching-hands.svg" alt="Hands reaching up")
     .section.section--blue
-      .section__content
+      .section__content.section__content--blue
         .life-goals
           .life-goals__goal
             .life-goals__image-container
@@ -66,7 +66,7 @@ html(lang="en")
     .how-section.how-section--section-1.relative
       .diagonal.diagonal--green-1
       .section__content.section__content--green
-        h2.section__lead.section__lead--gray.mb--2 How does it work?
+        h2.section__lead.section__lead--gray.mb--2.relative.z--1 How does it work?
     .how-section.how-section--section-2
       .how__parent-container
         .how__neighbor 

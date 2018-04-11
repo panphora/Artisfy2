@@ -31,7 +31,38 @@ body
     &:hover
       text-decoration: underline
 
+@media (max-width: 1200px)
+  .site
+    &__header
+      margin-bottom: 3rem
+
+@media (max-width: 520px)
+  .site
+    &__header
+      min-height: 98px
+      margin-bottom: 4rem
+    &__title
+      top: -60px
+      left: -120px
+    &__logo
+      max-width: 320px
+    &__old-sign-in
+      position: relative
+      top: -1rem
+      right: -1rem
+    &__old-sign-in-link
+      font-size: 18px
+
+
+@media (max-width: 340px)
+  .site
+    &__old-sign-in-text
+      max-width: 52px
+      font-size: 12px
+
 .email-collect
+  margin: 0 auto
+  max-width: 480px
   &__error
     margin-bottom: .5rem
     text-align: center
@@ -83,6 +114,7 @@ body
 
   &--yellow
     background-color: #fdc72e
+    padding-bottom: 0
   &--blue
     background-color: #4d8ad9
   &--green
@@ -95,6 +127,11 @@ body
   &__content
     max-width: 1000px
     margin: 0 auto
+    &--yellow
+      .section__lead-container
+        margin-bottom: 4.5rem
+    &--blue
+      padding: 7rem 0 8rem
     &--pink
       padding: 6rem 0 4rem
   &__lead
@@ -116,19 +153,24 @@ body
     &--pink
       color: #e32075
 
+@media (max-width: 900px)
+  .section
+    &__content
+      &--yellow
+        padding-bottom: 6rem
+        .section__lead-container
+          margin-bottom: 2rem
 
 // section yellow
 
 .preview
   display: flex
   &__monitor-container
-    position: relative
     width: 100%
-    padding-bottom: 128%
+    max-width: 600px
+    margin: 0 auto
   &__monitor-svg
-    position: absolute
-    top: 0
-    left: 0
+    width: 100%
   &__icon--play-button
     cursor: pointer
     &:hover
@@ -136,8 +178,8 @@ body
         fill: #845EF7
     .preview__icon--play-button-circle
       fill: #F1563E
-    &--hands
-      max-width: 280px
+  &__icon--hands
+    max-width: 320px
   &__interface
     position: relative
     flex: 1.2
@@ -150,13 +192,22 @@ body
     text-align: center
     color: #2c3e4b
   &__info-bonus-text
+    margin-bottom: 4rem
     font-size: 20px
     text-align: center
     color: #304857
   &__info-hands
-    position: relative
-    top: 60px
+    margin-bottom: -3rem
     text-align: center
+
+@media (max-width: 900px)
+  .preview
+    flex-direction: column-reverse
+    &__interface
+      margin-right: 0
+    &__info-hands
+      display: none
+
 
 // section blue
 
@@ -165,7 +216,7 @@ body
   justify-content: space-between
   color: #fff
   &__goal
-    padding: 7rem 0
+    //padding: 7rem 0
     text-align: center
   &__image-container
     display: flex
@@ -184,6 +235,11 @@ body
     font-size: 17px
     letter-spacing: .5px
 
+@media (max-width: 960px)
+  .life-goals
+    display: block
+    &__goal
+      //padding: 0 0 5rem 0
 
 // section green
 
