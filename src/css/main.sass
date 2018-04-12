@@ -6,6 +6,7 @@
 
 body
   @extend .font-sans-serif
+  background-color: #fdc72e
 
 .site
   &__header
@@ -63,6 +64,22 @@ body
 .email-collect
   margin: 0 auto
   max-width: 480px
+  &--footer
+    max-width: 380px
+    margin-bottom: 6rem
+    .email-collect__form
+      border: 2px solid #fff
+    .email-collect__email-container
+      background-color: transparent
+      border-bottom: 2px solid #fff
+      &--focused
+        background-color: rgba(255,255,255,.12)
+      &:hover
+        background-color: rgba(255,255,255,.12)
+    .email-collect__input
+      color: #fff
+    .email-collect__placeholder
+      color: #fff
   &__error
     margin-bottom: .5rem
     text-align: center
@@ -134,6 +151,8 @@ body
       padding: 7rem 0 8rem
     &--pink
       padding: 6rem 0 4rem
+    &--gray
+      padding: 4rem 0 1rem
   &__lead
     text-align: center
     font-weight: 700
@@ -360,7 +379,34 @@ body
 
 // section gray
 
-
+.footer
+  text-align: center
+  color: #fff
+  a
+    color: #fff
+  &__social
+    display: flex
+    justify-content: center
+    margin-bottom: .5rem
+  &__social-link
+    height: 36px
+    width: 36px 
+    margin: 1rem
+    transition: all .3s
+    &:hover
+      transform: scale(1.15)
+  &__social-icon
+    width: 100%
+  &__questions
+    @extend .font-pixel
+    margin-bottom: 8rem
+    font-size: 28px
+  &__credits 
+    font-size: 14px
+    span
+      opacity: .5
+    a
+      opacity: .6
 
 
 

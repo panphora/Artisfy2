@@ -166,6 +166,24 @@ Built by Artisfy. Designed by Sunbird Creative.
 
 
 
+# EXTRA
+
+– Add a youtube modal
+- Decide on email list service (or just use form bucket)
+  - email octopus
+  - mailchimp
+  - other?
+
+- Hook up the sign up forms
+  - Use AJAX
+  - show thank you message below form after submit
+
+- Link to blog
+
+
+# AFTER BUILD
+
+- record a 1 minute video of new Artisfy interface with a professional voiceover
 
 
 

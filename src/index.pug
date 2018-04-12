@@ -39,7 +39,7 @@ html(lang="en")
               .email-collect__error.visibility-hidden Please enter a valid email address 😫
               form.email-collect__form(action="/")
                 .email-collect__email-container
-                  input.email-collect__input.invisible-input(type="text")
+                  input.email-collect__input.invisible-input(type="email" spellcheck="false")
                   .email-collect__placeholder Enter your email
                 button.email-collect__button(type="submit") Join the Waitlist
             .preview__info-bonus-text Sign up for 3 months free access.
@@ -117,7 +117,32 @@ html(lang="en")
             .features__item-title Payment
             .features__item-text Get paid before you start a project, halfway through, and on completion.
     .section.section--gray.relative.z--2
-      .section__content
+      .section__content.section__content--gray
+        h2.section__lead.section__lead--green.mb--2point5 Be one of the first to try the public beta.
+        .email-collect.email-collect--footer.mb3
+          .email-collect__error.visibility-hidden Please enter a valid email address 😫
+          form.email-collect__form(action="/")
+            .email-collect__email-container
+              input.email-collect__input.invisible-input(type="email" spellcheck="false")
+              .email-collect__placeholder Enter your email
+            button.email-collect__button(type="submit") Join the Waitlist
+        .footer
+          .footer__social
+            a.footer__social-link(href="https://www.instagram.com/artisfyhq/" target="_blank")
+              img.footer__social-icon(src="/img/instagram-icon.svg")
+            a.footer__social-link(href="https://twitter.com/artisfyhq" target="_blank")
+              img.footer__social-icon(src="/img/twitter-icon.svg")
+            a.footer__social-link(href="https://www.facebook.com/artisfy" target="_blank")
+              img.footer__social-icon(src="/img/facebook-icon.svg")
+          .footer__questions Questions? david@artisfy.com
+          .footer__credits 
+            span Built by 
+            a(href="https://artisfy.com/") Artisfy
+            span .&nbsp;
+            span Designed by 
+            a(href="https://www.sunbirdcreative.com/") Sunbird Creative
+            span .
+
 
 
 
