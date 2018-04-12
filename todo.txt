@@ -155,18 +155,20 @@ section heading
 
 √ support for multiple email collection elements
 
-section heading
+√ section heading
 
-email collection
-  use same email collection element as above
+√ email collection
+  √ use same email collection element as above
 
-fb, instagram, twitter icons
-questions? text
-Built by Artisfy. Designed by Sunbird Creative.
+√ fb, instagram, twitter icons
+√ questions? text
+√ Built by Artisfy. Designed by Sunbird Creative.
 
 
 
 # EXTRA
+
+- favicon
 
 – Add a youtube modal
 - Decide on email list service (or just use form bucket)
