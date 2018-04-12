@@ -235,7 +235,7 @@
 		"prP": 0
 		},
 	"\/src\/index.pug": {
-		"cB": 0,
+		"cB": 1,
 		"cOD": 1,
 		"ft": 512,
 		"oA": 0,
@@ -2205,7 +2205,7 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 1
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
