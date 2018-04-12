@@ -77,8 +77,10 @@ body
       &:hover
         background-color: rgba(255,255,255,.12)
     .email-collect__input
+      @extend .slight-text-shadow
       color: #fff
     .email-collect__placeholder
+      @extend .slight-text-shadow
       color: #fff
   &__error
     margin-bottom: .5rem
@@ -115,6 +117,7 @@ body
   &__button
     @extend .reset-button
     @extend .font-pixel
+    @extend .slight-text-shadow
     height: 48px
     width: 100%
     font-size: 24px
@@ -231,6 +234,7 @@ body
 // section blue
 
 .life-goals
+  @extend .slight-text-shadow
   display: flex
   justify-content: space-between
   color: #fff
@@ -316,11 +320,11 @@ body
     text-align: center
   &__item
     @extend .font-pixel
+    @extend .slight-text-shadow
     margin-bottom: 2rem
     font-size: 28px
     font-weight: 400
     color: #fff
-    text-shadow: 0 0 3px rgba(0,0,0,.3)
 
 @media (max-width: 760px)
   .how
@@ -342,6 +346,7 @@ body
   flex-wrap: wrap
   justify-content: space-between
   &__item
+    @extend .slight-text-shadow
     width: 310px
     margin-bottom: 2.5rem
     padding: 16px 24px
@@ -402,6 +407,7 @@ body
     width: 100%
   &__questions
     @extend .font-pixel
+    @extend .slight-text-shadow
     margin-bottom: 6.5rem
     font-size: 28px
   &__credits 
